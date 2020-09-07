@@ -1,0 +1,32 @@
+/* 404 */
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+.error-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	flex-direction: column;
+}
+
+.error-container h1 {
+	text-align: center;
+	font-weight: normal;
+	font-size: 100px;
+}
+
+.back-main {
+	text-decoration: none;
+	font-size: 25px;
+	color: #9e9e9e;
+	padding-top: 5px;
+}
+
+.back-main:hover,
+.back-main:focus {
+	color: #e0e0e0;
+}
